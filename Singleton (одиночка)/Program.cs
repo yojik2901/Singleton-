@@ -10,6 +10,7 @@ namespace Singleton__одиночка_
     {
         static void Main(string[] args)
         {
+            TestSingleton.getInstance().print();//пример вызова функций из нашего класса
         }
     }
 }
